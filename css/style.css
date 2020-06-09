@@ -1,0 +1,188 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+strong,
+a,
+button,
+label {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+.pos-logo {
+  padding: 30px 0px;
+}
+header {
+  background: url(/img/bg-header.jpg);
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.info-header {
+  width: 500px;
+  text-align: center;
+}
+.tit-prin {
+  font-size: 113px;
+  color: white;
+}
+hr {
+  border-color: #15a4fa;
+}
+.cont-simple {
+  padding: 100px 0px;
+  text-align: center;
+}
+#servicios {
+  padding: 70px 0px;
+}
+.cont-serv {
+  display: flex;
+}
+.encabezado {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.fond-formu {
+  background: url(/img/bg-stay.jpg);
+}
+.encabezado2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contac {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.check {
+  width: 70%;
+}
+.bg-1 {
+  background-color: #f6f5f5;
+}
+
+.contenedor {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.caja-servicios {
+  width: 33.3333333%;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.caja-servicios img {
+  margin-bottom: 15px;
+}
+
+.caja-servicios h5 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.color1 {
+  color: #2d3950;
+}
+
+.color2 {
+  color: #999;
+}
+
+.pd-90 {
+  padding: 90px 0px;
+}
+
+.fonSize {
+  font-size: 40px;
+}
+
+.caja-galeria {
+  width: 33.3333333%;
+  padding: 0 10px;
+}
+
+.caja-galeria img {
+  width: 100%;
+  display: block;
+}
+
+.fila {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 18px;
+  background-color: transparent;
+  border: 1px solid #999;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  color: #999;
+}
+
+.form-input::placeholder {
+  color: #999;
+}
+.pos-btn-input{
+    display: flex;
+}
+.btn1:hover{
+    background-color: #15a4fa;
+}
+.btn2:hover{
+    background-color: #15a4fa;
+}
+.btn button {
+  background-color: transparent;
+  border: 1px solid #15a4fa;
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+}
+footer {
+  padding: 20px 0;
+}
+.cont-redes {
+  display: flex;
+  align-items: center;
+}
+.redes-sociales {
+  width: 40%;
+  text-align: center;
+}
+.redes-sociales a {
+  background-color: #15a4fa;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.redes-sociales a,
+i {
+  color: white;
+}
